@@ -582,6 +582,7 @@ footer {
         grid-template-rows: auto;
         gap: 1rem;
         padding: 1rem;
+        padding-top: 2rem;
     }
     
     .profile-block,
@@ -598,6 +599,16 @@ footer {
     .block {
         padding: 1.5rem;
     }
+    
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .project-gif {
+        height: auto;
+        max-height: 300px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -610,13 +621,26 @@ footer {
         font-size: 0.8rem;
     }
 
-    .hero-content h1 {
-        font-size: 2rem;
+    .grid-container {
+        padding: 1rem 0.5rem;
+        padding-top: 1.5rem;
     }
-
-    .projects h2,
-    .contact h2 {
-        font-size: 2rem;
+    
+    .block {
+        padding: 1rem;
+    }
+    
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-name {
+        font-size: 1.5rem;
+    }
+    
+    .project-gif {
+        max-height: 250px;
     }
 }
 
