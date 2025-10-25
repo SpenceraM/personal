@@ -630,15 +630,6 @@ footer {
     .project-gif {
         height: auto;
         max-height: 300px;
-        margin-bottom: 2rem;
-    }
-    
-    .project-item h3 {
-        margin-top: 1rem;
-    }
-    
-    .project-description {
-        margin-top: 1rem;
     }
 }
 
@@ -671,15 +662,6 @@ footer {
     
     .project-gif {
         max-height: 250px;
-        margin-bottom: 2rem;
-    }
-    
-    .project-item h3 {
-        margin-top: 1rem;
-    }
-    
-    .project-description {
-        margin-top: 1rem;
     }
 }
 
